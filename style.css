@@ -55,6 +55,7 @@ body, html {
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    font-family: "Roboto", sans-serif;
 }
 
 .card {
@@ -64,12 +65,18 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 8px;
+    border: 1px solid gray;
+    box-shadow: 8px 8px gray;
 }
 
 .card img {
     width: 200px;
+    padding: 8px;
 }
 
 .name {
     font-size: 24px;
+    font-weight: bold;
+    padding: 8px;
 }
